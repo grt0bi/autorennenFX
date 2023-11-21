@@ -40,7 +40,7 @@ public class Fahrrad extends Fahrzeug {
         graphicsContext.strokeLine(getX() + 45, getY() + 13, getX() + 45, getY() + 18);
         graphicsContext.strokeLine(getX() + 45, getY() + 27, getX() + 45, getY() + 32);
 
-        // Rahmen (statt Karosserie)
+        // Rahmen
         graphicsContext.setFill(getFarbe());
         graphicsContext.fillRect(getX() + 10, getY() + 15, 35, 15);
 
@@ -52,7 +52,7 @@ public class Fahrrad extends Fahrzeug {
         graphicsContext.setFill(Color.SILVER); // Beispiel-Farbe
         graphicsContext.fillRect(getX() + 8, getY() + 12, 3, 20);
 
-        // Pedale (Beispiel)
+        // Pedale
         graphicsContext.setFill(Color.BLACK);
         graphicsContext.fillOval(getX() + 10, getY() + 32, 5, 5);
         graphicsContext.fillOval(getX() + 33, getY() + 32, 5, 5);
